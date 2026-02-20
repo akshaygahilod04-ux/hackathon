@@ -1,0 +1,3 @@
+Headers: 6
+Rows: 30
+Excel file created: ./test-data/LoanData_1771568074835.xlsx

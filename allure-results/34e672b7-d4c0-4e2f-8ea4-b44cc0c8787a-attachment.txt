@@ -1,0 +1,7 @@
+Manually Calculated EMI: ₹17995
+Website EMI: ₹17995
+EMI Verification: PASSED
+EMI Verification Results:
+- Manually Calculated EMI: ₹17995
+- Website EMI: ₹17995
+- Verification Status: PASSED ✓

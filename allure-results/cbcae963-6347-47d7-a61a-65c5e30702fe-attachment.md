@@ -1,0 +1,878 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button "Skip To Main Content" [ref=e2] [cursor=pointer]
+  - generic [ref=e5]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - banner:
+              - navigation:
+                - generic [ref=e8]:
+                  - link "HDFC Bank Logo" [ref=e10] [cursor=pointer]:
+                    - /url: https://www.hdfc.bank.in/
+                    - img "HDFC Bank - Personal Banking & Netbanking Services" [ref=e11]
+                  - generic [ref=e12]:
+                    - generic [ref=e13]:
+                      - button "You are in Personal Banking " [ref=e15] [cursor=pointer]:
+                        - generic [ref=e16]:
+                          - generic [ref=e17]: You are in Personal Banking
+                          - generic [ref=e18]: 
+                      - generic [ref=e20]:
+                        - generic:
+                          - list:
+                            - listitem [ref=e21]:
+                              - link "Discover Products " [ref=e22] [cursor=pointer]:
+                                - /url: javascript:void()
+                                - text: Discover Products
+                                - generic [ref=e23]: 
+                            - listitem [ref=e24]:
+                              - link "Need Help " [ref=e25] [cursor=pointer]:
+                                - /url: javascript:void()
+                                - text: Need Help
+                                - generic [ref=e26]: 
+                            - listitem [ref=e27]:
+                              - link "Better Money Choices®" [ref=e28] [cursor=pointer]:
+                                - /url: /blogs
+                            - listitem [ref=e29]:
+                              - link "Offers " [ref=e30] [cursor=pointer]:
+                                - /url: javascript:void()
+                                - text: Offers
+                                - generic [ref=e31]: 
+                            - listitem
+                        - button "Open Search" [ref=e35] [cursor=pointer]:
+                          - generic [ref=e36]:
+                            - img "eva" [ref=e37]
+                            - generic [ref=e38]:
+                              - generic [ref=e39]: ASK
+                              - generic [ref=e40]: EVA
+                          - generic [ref=e41]: Search...
+                        - button "Login" [ref=e43] [cursor=pointer]:
+                          - text: Login
+                          - generic [ref=e44]: 
+                    - generic [ref=e45]:
+                      - button "About Us" [ref=e47] [cursor=pointer]:
+                        - text: About Us
+                        - generic [ref=e48]: 
+                      - button "Toggle Accessiblity" [ref=e50] [cursor=pointer]:
+                        - img [ref=e52]
+                      - button "notification" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: 
+                - text:                                                                                                
+    - generic [ref=e61]:
+      - navigation [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "" [ref=e70] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e71]: 
+            - generic [ref=e72]: 
+          - listitem [ref=e73]:
+            - link "Home Loan" [ref=e74] [cursor=pointer]:
+              - /url: /home-loan
+            - generic [ref=e75]: 
+          - listitem [ref=e76]: EMI Calculator 
+      - generic [ref=e78]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - heading "Home Loan EMI" [level=2] [ref=e85]:
+              - generic [ref=e86]: Home Loan EMI
+            - paragraph [ref=e87]:
+              - generic [ref=e88]: Keep your EMIs under control
+          - link "Apply Now Home Loan EMI" [ref=e90] [cursor=pointer]:
+            - /url: https://www.hdfc.com/campaign/homeloan-leads-hdfcbank?cust_source=INTERNET&cust_sub_source=HDFC_SITE&cust_term_source=BRAND41&mcid=website_organic_HLemicalcu_banner&icid=website_organic_HLemicalcu_banner
+            - text: Apply Now
+            - generic [ref=e91]: 
+        - img "banner-logo" [ref=e95]
+      - generic [ref=e104]:
+        - heading "EMI Calculator" [level=2] [ref=e107]:
+          - generic [ref=e108]: EMI Calculator
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - generic "Loan Amount"
+                - generic [ref=e114]:
+                  - generic [ref=e115]: ₹
+                  - textbox "Loan Amount" [ref=e116]:
+                    - /placeholder: 45,00,000
+                    - text: 20,00,000
+              - slider [ref=e122] [cursor=pointer]
+              - generic [ref=e124]:
+                - generic [ref=e125]: ₹ 1,00,000
+                - generic [ref=e126]: ₹ 10,00,00,000
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - generic "Laon Tenure": Loan Tenure
+                - textbox "Laon Tenure" [ref=e130]:
+                  - /placeholder: "30"
+                  - text: "20"
+              - slider [ref=e136] [cursor=pointer]
+              - generic [ref=e138]:
+                - generic [ref=e139]: 1 year
+                - generic [ref=e140]: 50 years
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - generic "Interest Rate"
+                - generic [ref=e143]:
+                  - textbox "Interest Rate" [active] [ref=e144]:
+                    - /placeholder: "8.75"
+                    - text: "9"
+                  - generic [ref=e145]: "%"
+              - slider [ref=e151] [cursor=pointer]
+              - generic [ref=e153]:
+                - generic [ref=e154]: 0.5% PA
+                - generic [ref=e155]: 15% PA
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e159]:
+                - text: Your Monthly EMI will be
+                - paragraph [ref=e160]: ₹17,995
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - paragraph [ref=e163]: Amount Payable
+                  - paragraph [ref=e164]: ₹ 43,18,685
+                - generic [ref=e165]:
+                  - paragraph [ref=e166]: Interest Amount
+                  - paragraph [ref=e167]: ₹ 23,18,685
+                - generic [ref=e168]:
+                  - paragraph [ref=e169]: Principal Amount
+                  - paragraph [ref=e170]: ₹ 20,00,000
+            - link "Know More EMI Calculator" [ref=e172] [cursor=pointer]:
+              - /url: /home-loan
+              - text: Know More
+              - generic [ref=e173]: 
+      - generic [ref=e177]:
+        - generic [ref=e179]:
+          - heading "About Home Loan EMI Calculator" [level=2] [ref=e180]:
+            - generic [ref=e181]: About Home Loan EMI Calculator
+          - paragraph [ref=e182]:
+            - generic [ref=e183]: The HDFC Bank Home Loan EMI Calculator is your go-to tool for estimating monthly payments on loans with ease. Simply input the loan amount, tenure, and interest rate to quickly calculate your EMI. Plan your finances better with accurate and instant results.
+        - generic [ref=e185]:
+          - heading "Home Loan EMI Calculator" [level=2] [ref=e186]:
+            - generic [ref=e187]: Home Loan EMI Calculator
+          - paragraph [ref=e188]:
+            - generic [ref=e189]: "*These calculators are provided only as general self-help Planning Tools. Results depend on many factors, including the assumptions you provide. We do not guarantee their accuracy, or applicability to your circumstances. NRIs should input net income."
+          - heading "Home Loan Amortisation Schedule" [level=2] [ref=e190]:
+            - generic [ref=e191]: Home Loan Amortisation Schedule
+        - table [ref=e194]:
+          - rowgroup [ref=e195]:
+            - row "Year Opening Balance EMI*12 Interest paid yearly Principal paid yearly Closing Balance" [ref=e196]:
+              - columnheader "Year" [ref=e197]
+              - columnheader "Opening Balance" [ref=e198]
+              - columnheader "EMI*12" [ref=e199]
+              - columnheader "Interest paid yearly" [ref=e200]
+              - columnheader "Principal paid yearly" [ref=e201]
+              - columnheader "Closing Balance" [ref=e202]
+          - rowgroup [ref=e203]:
+            - row "1 25,00,000 2,29,612 2,10,522 19,090 24,80,910" [ref=e204]:
+              - cell "1" [ref=e205]
+              - cell "25,00,000" [ref=e206]
+              - cell "2,29,612" [ref=e207]
+              - cell "2,10,522" [ref=e208]
+              - cell "19,090" [ref=e209]
+              - cell "24,80,910" [ref=e210]
+            - row "2 24,80,910 2,29,612 2,08,845 20,767 24,60,143" [ref=e211]:
+              - cell "2" [ref=e212]
+              - cell "24,80,910" [ref=e213]
+              - cell "2,29,612" [ref=e214]
+              - cell "2,08,845" [ref=e215]
+              - cell "20,767" [ref=e216]
+              - cell "24,60,143" [ref=e217]
+            - row "3 24,60,143 2,29,612 2,07,020 22,591 24,37,552" [ref=e218]:
+              - cell "3" [ref=e219]
+              - cell "24,60,143" [ref=e220]
+              - cell "2,29,612" [ref=e221]
+              - cell "2,07,020" [ref=e222]
+              - cell "22,591" [ref=e223]
+              - cell "24,37,552" [ref=e224]
+            - row "4 24,37,552 2,29,612 2,05,036 24,576 24,12,976" [ref=e225]:
+              - cell "4" [ref=e226]
+              - cell "24,37,552" [ref=e227]
+              - cell "2,29,612" [ref=e228]
+              - cell "2,05,036" [ref=e229]
+              - cell "24,576" [ref=e230]
+              - cell "24,12,976" [ref=e231]
+            - row "5 24,12,976 2,29,612 2,02,877 26,735 23,86,241" [ref=e232]:
+              - cell "5" [ref=e233]
+              - cell "24,12,976" [ref=e234]
+              - cell "2,29,612" [ref=e235]
+              - cell "2,02,877" [ref=e236]
+              - cell "26,735" [ref=e237]
+              - cell "23,86,241" [ref=e238]
+            - row "6 23,86,241 2,29,612 2,00,528 29,084 23,57,157" [ref=e239]:
+              - cell "6" [ref=e240]
+              - cell "23,86,241" [ref=e241]
+              - cell "2,29,612" [ref=e242]
+              - cell "2,00,528" [ref=e243]
+              - cell "29,084" [ref=e244]
+              - cell "23,57,157" [ref=e245]
+            - row "7 23,57,157 2,29,612 1,97,973 31,639 23,25,518" [ref=e246]:
+              - cell "7" [ref=e247]
+              - cell "23,57,157" [ref=e248]
+              - cell "2,29,612" [ref=e249]
+              - cell "1,97,973" [ref=e250]
+              - cell "31,639" [ref=e251]
+              - cell "23,25,518" [ref=e252]
+            - row "8 23,25,518 2,29,612 1,95,194 34,418 22,91,100" [ref=e253]:
+              - cell "8" [ref=e254]
+              - cell "23,25,518" [ref=e255]
+              - cell "2,29,612" [ref=e256]
+              - cell "1,95,194" [ref=e257]
+              - cell "34,418" [ref=e258]
+              - cell "22,91,100" [ref=e259]
+            - row "9 22,91,100 2,29,612 1,92,170 37,442 22,53,658" [ref=e260]:
+              - cell "9" [ref=e261]
+              - cell "22,91,100" [ref=e262]
+              - cell "2,29,612" [ref=e263]
+              - cell "1,92,170" [ref=e264]
+              - cell "37,442" [ref=e265]
+              - cell "22,53,658" [ref=e266]
+            - row "10 22,53,658 2,29,612 1,88,881 40,731 22,12,927" [ref=e267]:
+              - cell "10" [ref=e268]
+              - cell "22,53,658" [ref=e269]
+              - cell "2,29,612" [ref=e270]
+              - cell "1,88,881" [ref=e271]
+              - cell "40,731" [ref=e272]
+              - cell "22,12,927" [ref=e273]
+            - row "11 22,12,927 2,29,612 1,85,302 44,310 21,68,617" [ref=e274]:
+              - cell "11" [ref=e275]
+              - cell "22,12,927" [ref=e276]
+              - cell "2,29,612" [ref=e277]
+              - cell "1,85,302" [ref=e278]
+              - cell "44,310" [ref=e279]
+              - cell "21,68,617" [ref=e280]
+            - row "12 21,68,617 2,29,612 1,81,410 48,202 21,20,415" [ref=e281]:
+              - cell "12" [ref=e282]
+              - cell "21,68,617" [ref=e283]
+              - cell "2,29,612" [ref=e284]
+              - cell "1,81,410" [ref=e285]
+              - cell "48,202" [ref=e286]
+              - cell "21,20,415" [ref=e287]
+            - row "13 21,20,415 2,29,612 1,77,175 52,437 20,67,978" [ref=e288]:
+              - cell "13" [ref=e289]
+              - cell "21,20,415" [ref=e290]
+              - cell "2,29,612" [ref=e291]
+              - cell "1,77,175" [ref=e292]
+              - cell "52,437" [ref=e293]
+              - cell "20,67,978" [ref=e294]
+            - row "14 20,67,978 2,29,612 1,72,569 57,043 20,10,935" [ref=e295]:
+              - cell "14" [ref=e296]
+              - cell "20,67,978" [ref=e297]
+              - cell "2,29,612" [ref=e298]
+              - cell "1,72,569" [ref=e299]
+              - cell "57,043" [ref=e300]
+              - cell "20,10,935" [ref=e301]
+            - row "15 20,10,935 2,29,612 1,67,557 62,055 19,48,880" [ref=e302]:
+              - cell "15" [ref=e303]
+              - cell "20,10,935" [ref=e304]
+              - cell "2,29,612" [ref=e305]
+              - cell "1,67,557" [ref=e306]
+              - cell "62,055" [ref=e307]
+              - cell "19,48,880" [ref=e308]
+            - row "16 19,48,880 2,29,612 1,62,106 67,506 18,81,374" [ref=e309]:
+              - cell "16" [ref=e310]
+              - cell "19,48,880" [ref=e311]
+              - cell "2,29,612" [ref=e312]
+              - cell "1,62,106" [ref=e313]
+              - cell "67,506" [ref=e314]
+              - cell "18,81,374" [ref=e315]
+            - row "17 18,81,374 2,29,612 1,56,175 73,437 18,07,937" [ref=e316]:
+              - cell "17" [ref=e317]
+              - cell "18,81,374" [ref=e318]
+              - cell "2,29,612" [ref=e319]
+              - cell "1,56,175" [ref=e320]
+              - cell "73,437" [ref=e321]
+              - cell "18,07,937" [ref=e322]
+            - row "18 18,07,937 2,29,612 1,49,724 79,888 17,28,049" [ref=e323]:
+              - cell "18" [ref=e324]
+              - cell "18,07,937" [ref=e325]
+              - cell "2,29,612" [ref=e326]
+              - cell "1,49,724" [ref=e327]
+              - cell "79,888" [ref=e328]
+              - cell "17,28,049" [ref=e329]
+            - row "19 17,28,049 2,29,612 1,42,706 86,906 16,41,143" [ref=e330]:
+              - cell "19" [ref=e331]
+              - cell "17,28,049" [ref=e332]
+              - cell "2,29,612" [ref=e333]
+              - cell "1,42,706" [ref=e334]
+              - cell "86,906" [ref=e335]
+              - cell "16,41,143" [ref=e336]
+            - row "20 16,41,143 2,29,612 1,35,071 94,541 15,46,602" [ref=e337]:
+              - cell "20" [ref=e338]
+              - cell "16,41,143" [ref=e339]
+              - cell "2,29,612" [ref=e340]
+              - cell "1,35,071" [ref=e341]
+              - cell "94,541" [ref=e342]
+              - cell "15,46,602" [ref=e343]
+            - row "21 15,46,602 2,29,612 1,26,765 1,02,847 14,43,755" [ref=e344]:
+              - cell "21" [ref=e345]
+              - cell "15,46,602" [ref=e346]
+              - cell "2,29,612" [ref=e347]
+              - cell "1,26,765" [ref=e348]
+              - cell "1,02,847" [ref=e349]
+              - cell "14,43,755" [ref=e350]
+            - row "22 14,43,755 2,29,612 1,17,730 1,11,882 13,31,874" [ref=e351]:
+              - cell "22" [ref=e352]
+              - cell "14,43,755" [ref=e353]
+              - cell "2,29,612" [ref=e354]
+              - cell "1,17,730" [ref=e355]
+              - cell "1,11,882" [ref=e356]
+              - cell "13,31,874" [ref=e357]
+            - row "23 13,31,874 2,29,612 1,07,901 1,21,711 12,10,163" [ref=e358]:
+              - cell "23" [ref=e359]
+              - cell "13,31,874" [ref=e360]
+              - cell "2,29,612" [ref=e361]
+              - cell "1,07,901" [ref=e362]
+              - cell "1,21,711" [ref=e363]
+              - cell "12,10,163" [ref=e364]
+            - row "24 12,10,163 2,29,612 97,209 1,32,403 10,77,760" [ref=e365]:
+              - cell "24" [ref=e366]
+              - cell "12,10,163" [ref=e367]
+              - cell "2,29,612" [ref=e368]
+              - cell "97,209" [ref=e369]
+              - cell "1,32,403" [ref=e370]
+              - cell "10,77,760" [ref=e371]
+            - row "25 10,77,760 2,29,612 85,577 1,44,035 9,33,726" [ref=e372]:
+              - cell "25" [ref=e373]
+              - cell "10,77,760" [ref=e374]
+              - cell "2,29,612" [ref=e375]
+              - cell "85,577" [ref=e376]
+              - cell "1,44,035" [ref=e377]
+              - cell "9,33,726" [ref=e378]
+            - row "26 9,33,726 2,29,612 72,924 1,56,688 7,77,037" [ref=e379]:
+              - cell "26" [ref=e380]
+              - cell "9,33,726" [ref=e381]
+              - cell "2,29,612" [ref=e382]
+              - cell "72,924" [ref=e383]
+              - cell "1,56,688" [ref=e384]
+              - cell "7,77,037" [ref=e385]
+            - row "27 7,77,037 2,29,612 59,159 1,70,453 6,06,584" [ref=e386]:
+              - cell "27" [ref=e387]
+              - cell "7,77,037" [ref=e388]
+              - cell "2,29,612" [ref=e389]
+              - cell "59,159" [ref=e390]
+              - cell "1,70,453" [ref=e391]
+              - cell "6,06,584" [ref=e392]
+            - row "28 6,06,584 2,29,612 44,184 1,85,428 4,21,156" [ref=e393]:
+              - cell "28" [ref=e394]
+              - cell "6,06,584" [ref=e395]
+              - cell "2,29,612" [ref=e396]
+              - cell "44,184" [ref=e397]
+              - cell "1,85,428" [ref=e398]
+              - cell "4,21,156" [ref=e399]
+            - row "29 4,21,156 2,29,612 27,894 2,01,718 2,19,439" [ref=e400]:
+              - cell "29" [ref=e401]
+              - cell "4,21,156" [ref=e402]
+              - cell "2,29,612" [ref=e403]
+              - cell "27,894" [ref=e404]
+              - cell "2,01,718" [ref=e405]
+              - cell "2,19,439" [ref=e406]
+            - row "30 2,19,439 2,29,612 10,173 2,19,439 0" [ref=e407]:
+              - cell "30" [ref=e408]
+              - cell "2,19,439" [ref=e409]
+              - cell "2,29,612" [ref=e410]
+              - cell "10,173" [ref=e411]
+              - cell "2,19,439" [ref=e412]
+              - cell "0" [ref=e413]
+      - generic [ref=e417]:
+        - heading "More About Home Loan EMI Calculator" [level=2] [ref=e420]
+        - generic [ref=e422]:
+          - generic [ref=e423]:
+            - heading "Features of the Home Loan EMI Calculator " [level=2] [ref=e424]:
+              - button "Features of the Home Loan EMI Calculator " [ref=e425] [cursor=pointer]:
+                - generic [ref=e426]: Features of the Home Loan EMI Calculator
+                - generic [ref=e427]: 
+            - region [ref=e428]:
+              - list [ref=e435]:
+                - listitem [ref=e436]:
+                  - paragraph [ref=e437]: You only need to provide a few basic inputs like the borrowing amount, tenure, and interest rate to calculate your EMI.
+                - listitem [ref=e438]:
+                  - paragraph [ref=e439]: You can dodge time-consuming and error-prone manual calculations. Using the Home Loan monthly EMI calculator, you can get accurate results instantly
+                - listitem [ref=e440]:
+                  - paragraph [ref=e441]: Knowing your EMI in advance helps you plan your monthly expenses and reduce unnecessary spending.
+          - generic [ref=e442]:
+            - heading "Benefits of a Home Loan EMI Calculator " [level=2] [ref=e443]:
+              - button "Benefits of a Home Loan EMI Calculator " [ref=e444] [cursor=pointer]:
+                - generic [ref=e445]: Benefits of a Home Loan EMI Calculator
+                - generic [ref=e446]: 
+            - generic [ref=e448]:
+              - paragraph [ref=e451]: "The following are the benefits of an EMI Calculator for a Home Loan:"
+              - list [ref=e456]:
+                - listitem [ref=e457]:
+                  - paragraph [ref=e458]: Helps in planning your finances in advance
+                - listitem [ref=e459]:
+                  - paragraph [ref=e460]: Easy to use
+          - generic [ref=e461]:
+            - heading "Helps bring focus to property search " [level=2] [ref=e462]:
+              - button "Helps bring focus to property search " [ref=e463] [cursor=pointer]:
+                - generic [ref=e464]: Helps bring focus to property search
+                - generic [ref=e465]: 
+            - list [ref=e470]:
+              - listitem [ref=e471]: Easily accessible
+          - generic [ref=e472]:
+            - heading "How to use a Home Loan EMI Calculator? " [level=2] [ref=e473]:
+              - button "How to use a Home Loan EMI Calculator? " [ref=e474] [cursor=pointer]:
+                - generic [ref=e475]: How to use a Home Loan EMI Calculator?
+                - generic [ref=e476]: 
+            - generic [ref=e478]:
+              - paragraph [ref=e481]: "To use a Home Loan EMI calculator, you must provide the following details:"
+              - list [ref=e486]:
+                - listitem [ref=e487]:
+                  - paragraph [ref=e488]: "Loan Amount: Input the desired loan amount that you wish to avail"
+                - listitem [ref=e489]:
+                  - paragraph [ref=e490]: "Loan Tenure (In Years): Input the desired loan term for which you wish to avail the housing loan. A longer tenure helps enhance the eligibility"
+                - listitem [ref=e491]:
+                  - paragraph [ref=e492]: "Interest Rate (% P.A.): Input interest rate."
+      - generic [ref=e496]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e499]
+        - generic [ref=e502]:
+          - generic [ref=e503]:
+            - heading " What is the EMI for a ₹20 lakh home? " [level=3] [ref=e504]:
+              - button " What is the EMI for a ₹20 lakh home? " [ref=e505] [cursor=pointer]:
+                - text: 
+                - generic [ref=e506]: What is the EMI for a ₹20 lakh home?
+                - generic: 
+            - region [ref=e507]:
+              - paragraph [ref=e510]:
+                - generic [ref=e511]: The EMI for a ₹20 lakh Home Loan will depend on factors like the interest rate, type of interest rate and loan tenure. You can calculate the EMI amount on an EMI calculator for a Home Loan based on the details specific to your Home Loan.
+          - generic [ref=e512]:
+            - heading " How is Home Loan EMI calculated? " [level=3] [ref=e513]:
+              - button " How is Home Loan EMI calculated? " [ref=e514] [cursor=pointer]:
+                - text: 
+                - generic [ref=e515]: How is Home Loan EMI calculated?
+                - generic: 
+            - region:
+              - generic [ref=e517]:
+                - paragraph [ref=e518]:
+                  - generic [ref=e519]: The formula for EMI Calculation is -
+                - list [ref=e520]:
+                  - listitem [ref=e521]:
+                    - paragraph [ref=e522]:
+                      - generic [ref=e523]: P x R x (1plusR)^N / [(1plusR)^N-1] where-
+                  - listitem [ref=e524]:
+                    - paragraph [ref=e525]:
+                      - generic [ref=e526]: P = Principal loan amount
+                  - listitem [ref=e527]:
+                    - paragraph [ref=e528]:
+                      - generic [ref=e529]: N = Loan tenure in months
+                  - listitem [ref=e530]:
+                    - paragraph [ref=e531]:
+                      - generic [ref=e532]: R = Monthly interest rate
+                  - listitem [ref=e533]:
+                    - paragraph [ref=e534]:
+                      - generic [ref=e535]: The interest rate (R) on your loan is calculated monthly.
+                  - listitem [ref=e536]:
+                    - paragraph [ref=e537]:
+                      - generic [ref=e538]: R = Annual Rate of interest/12/100
+          - generic [ref=e539]:
+            - heading " What is the EMI for a 15 lakh Home Loan for 20 years? " [level=3] [ref=e540]:
+              - button " What is the EMI for a 15 lakh Home Loan for 20 years? " [ref=e541] [cursor=pointer]:
+                - text: 
+                - generic [ref=e542]: What is the EMI for a 15 lakh Home Loan for 20 years?
+                - generic: 
+            - region:
+              - paragraph [ref=e545]:
+                - generic [ref=e546]: If the ₹15 lakh Home Loan is approved at a 9% interest rate (assuming it is a fixed interest rate) for 20 years, the EMI will be ₹15,214.
+          - generic [ref=e547]:
+            - heading " What does an EMI mean? " [level=3] [ref=e548]:
+              - button " What does an EMI mean? " [ref=e549] [cursor=pointer]:
+                - text: 
+                - generic [ref=e550]: What does an EMI mean?
+                - generic: 
+            - region:
+              - paragraph [ref=e553]:
+                - generic [ref=e554]: EMI refers to the ‘Equated Monthly Installment’ which is the amount you will pay to us on a specific date each month till the loan is repaid in full. The EMI comprises of the principal and interest components which are structured in a way that in the initial years of your loan, the interest component is much larger than the principal component, while towards the latter half of the loan, the principal component is much larger.
+          - generic [ref=e555]:
+            - heading " When does my home loan EMIs start? " [level=3] [ref=e556]:
+              - button " When does my home loan EMIs start? " [ref=e557] [cursor=pointer]:
+                - text: 
+                - generic [ref=e558]: When does my home loan EMIs start?
+                - generic: 
+            - region:
+              - paragraph [ref=e561]:
+                - generic [ref=e562]: EMI's begins from the month subsequent to the month in which disbursement of the loan is done. For loans for under-construction properties EMI usually begins after the complete home loan is disbursed but customers can choose to begin their emi’s as soon as they avail their first disbursement and their EMI’s will increase proportionately with every subsequent disbursement. For resale cases, since the whole loan amount is disbursed in one go, EMI on the whole loan amount start from the subsequent to the month of disbursement
+          - generic [ref=e563]:
+            - heading " What is a pre-EMI interest on a home loan? " [level=3] [ref=e564]:
+              - button " What is a pre-EMI interest on a home loan? " [ref=e565] [cursor=pointer]:
+                - text: 
+                - generic [ref=e566]: What is a pre-EMI interest on a home loan?
+                - generic: 
+            - region:
+              - paragraph [ref=e569]:
+                - generic [ref=e570]: Pre-EMI is the monthly payment of interest on your home loan. This amount is paid during the period till the full disbursement of the loan. Your actual loan tenure — and EMI (comprising of both principal and interest) payments — begins once the Pre-EMI phase is over i.e. post the loan has been fully disbursed.
+          - text:                    
+        - button "View More Frequently Asked Questions" [ref=e572] [cursor=pointer]:
+          - generic "View More Frequently Asked Questions" [ref=e573]: View More
+          - generic [ref=e574]: 
+      - generic:  
+    - contentinfo [ref=e580]:
+      - generic [ref=e582]:
+        - generic [ref=e583]:
+          - heading "Here’s how to reach us" [level=2] [ref=e584]
+          - list [ref=e585]:
+            - listitem [ref=e586]:
+              - link "Call" [ref=e587] [cursor=pointer]:
+                - /url: tel:18001600
+                - generic [ref=e588]: 
+                - text: Call
+            - listitem [ref=e589]:
+              - link "Chat" [ref=e590] [cursor=pointer]:
+                - /url: https://wa.me/+917070022222?text=Hey
+                - generic [ref=e591]: 
+                - text: Chat
+            - listitem [ref=e592]:
+              - link "Locate" [ref=e593] [cursor=pointer]:
+                - /url: /branch-locator
+                - generic [ref=e594]: 
+                - text: Locate
+        - generic [ref=e595]:
+          - generic [ref=e596]:
+            - paragraph [ref=e597]: About Us 
+            - list [ref=e598]:
+              - listitem [ref=e599]:
+                - link "Overview" [ref=e600] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e601]:
+                - link "Investor Relations" [ref=e602] [cursor=pointer]:
+                  - /url: /about-us/investor-relations
+              - listitem [ref=e603]:
+                - link "Careers" [ref=e604] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e605]:
+                - link "Other Stakeholders' Information" [ref=e606] [cursor=pointer]:
+                  - /url: /about-us/stakeholders-information
+              - listitem [ref=e607]:
+                - link "News Room" [ref=e608] [cursor=pointer]:
+                  - /url: /news-room
+              - listitem [ref=e609]:
+                - link "Corporate Governance" [ref=e610] [cursor=pointer]:
+                  - /url: /about-us/corporate-governance
+              - listitem [ref=e611]:
+                - link "CSR" [ref=e612] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/csr/index.html
+              - listitem [ref=e613]:
+                - link "Online Dispute Resolution Portal" [ref=e614] [cursor=pointer]:
+                  - /url: https://smartodr.in/login
+              - listitem [ref=e615]:
+                - link "Regulatory Disclosures" [ref=e616] [cursor=pointer]:
+                  - /url: /about-us/regulatory-disclosures
+              - listitem [ref=e617]:
+                - link "Our Corporate commitment" [ref=e618] [cursor=pointer]:
+                  - /url: /our-corporate-commit
+              - listitem [ref=e619]:
+                - link "Erstwhile HDFC Limited T&C" [ref=e620] [cursor=pointer]:
+                  - /url: https://www.hdfc.com/tnc-ltd
+          - generic [ref=e621]:
+            - paragraph [ref=e622]: Useful Links 
+            - list [ref=e623]:
+              - listitem [ref=e624]:
+                - link "Quick Links" [ref=e625] [cursor=pointer]:
+                  - /url: /useful-links/quick-links
+              - listitem [ref=e626]:
+                - link "New Issuance" [ref=e627] [cursor=pointer]:
+                  - /url: /useful-links/new-issuance
+              - listitem [ref=e628]:
+                - link "List of third parties engaged by Bank" [ref=e629] [cursor=pointer]:
+                  - /url: /useful-links/list-of-third-parties-engaged-by-bank
+              - listitem [ref=e630]:
+                - link "Security" [ref=e631] [cursor=pointer]:
+                  - /url: /security
+              - listitem [ref=e632]:
+                - link "US Patriot Act Certificate" [ref=e633] [cursor=pointer]:
+                  - /url: /useful-links/us-patriot-act-certificate
+              - listitem [ref=e634]:
+                - link "Important Messages" [ref=e635] [cursor=pointer]:
+                  - /url: /important-messages
+              - listitem [ref=e636]:
+                - link "RBI Kehta Hai" [ref=e637] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=e638]:
+                - link "RBI UDGAM-Unclaimed Deposit" [ref=e639] [cursor=pointer]:
+                  - /url: https://udgam.rbi.org.in/unclaimed-deposits/#/login
+              - listitem [ref=e640]:
+                - link "RBI Complaint Management System" [ref=e641] [cursor=pointer]:
+                  - /url: https://cms.rbi.org.in/cms/indexpage.html#eng
+              - listitem [ref=e642]:
+                - link "RBI Sachet Portal" [ref=e643] [cursor=pointer]:
+                  - /url: https://sachet.rbi.org.in
+              - listitem [ref=e644]:
+                - link "1+1 Credit Card Application" [ref=e645] [cursor=pointer]:
+                  - /url: https://applyonline.hdfcbank.com/cards/credit-cards.html?FUNC=FLOAT
+          - generic [ref=e646]:
+            - paragraph [ref=e647]: Resources 
+            - list [ref=e648]:
+              - listitem [ref=e649]:
+                - link "Fees & Charges" [ref=e650] [cursor=pointer]:
+                  - /url: /fees-and-charges
+              - listitem [ref=e651]:
+                - link "Customer Services" [ref=e652] [cursor=pointer]:
+                  - /url: /xpressway/insta-services
+              - listitem [ref=e653]:
+                - link "Bank Holiday List" [ref=e654] [cursor=pointer]:
+                  - /url: /bank-holiday-list
+              - listitem [ref=e655]:
+                - link "Online Services" [ref=e656] [cursor=pointer]:
+                  - /url: /online-services
+              - listitem [ref=e657]:
+                - link "Notice Board" [ref=e658] [cursor=pointer]:
+                  - /url: /notice-board
+              - listitem [ref=e659]:
+                - link "Interest Rates" [ref=e660] [cursor=pointer]:
+                  - /url: /interest-rates
+              - listitem [ref=e661]:
+                - link "Forex Rates" [ref=e662] [cursor=pointer]:
+                  - /url: /interest-rates#forexRates
+              - listitem [ref=e663]:
+                - link "Ways To Bank" [ref=e664] [cursor=pointer]:
+                  - /url: /ways-to-bank
+              - listitem [ref=e665]:
+                - link "Better Money Choices" [ref=e666] [cursor=pointer]:
+                  - /url: /blogs
+              - listitem [ref=e667]:
+                - link "Auction Notices" [ref=e668] [cursor=pointer]:
+                  - /url: /auction-notices
+              - listitem [ref=e669]:
+                - link "Forms Centre" [ref=e670] [cursor=pointer]:
+                  - /url: /resources/forms-centre
+          - generic [ref=e671]:
+            - paragraph [ref=e672]: Contact Us & Need Help 
+            - list [ref=e673]:
+              - listitem [ref=e674]:
+                - link "Lodge a Complaint/Query/Request" [ref=e675] [cursor=pointer]:
+                  - /url: /need-help/grievance-redressal
+              - listitem [ref=e676]:
+                - link "FAQs" [ref=e677] [cursor=pointer]:
+                  - /url: /faqs
+              - listitem [ref=e678]:
+                - link "Customer Care" [ref=e679] [cursor=pointer]:
+                  - /url: /contact-us/customer-care
+              - listitem [ref=e680]:
+                - link "Active Channel Partners" [ref=e681] [cursor=pointer]:
+                  - /url: https://leads.hdfcbank.com/applications/webforms/apply/Unsecured-Loans-Channel-Partner/index.aspx
+              - listitem [ref=e682]:
+                - link "Consent to Call Registration" [ref=e683] [cursor=pointer]:
+                  - /url: https://leads.hdfcbank.com/applications/misc/dnc/dnc.aspx?calltype=ctc
+              - listitem [ref=e684]:
+                - link "Do-Not-Call-Registration" [ref=e685] [cursor=pointer]:
+                  - /url: https://leads.hdfcbank.com/applications/misc/dnc/dnc.aspx?calltype=dnc
+              - listitem [ref=e686]:
+                - link "Locate Us" [ref=e687] [cursor=pointer]:
+                  - /url: /branch-locator
+              - listitem [ref=e688]:
+                - link "WhatsApp Banking" [ref=e689] [cursor=pointer]:
+                  - /url: https://www.hdfc.bank.in/ways-to-bank/chat-banking
+          - generic [ref=e690]:
+            - paragraph [ref=e691]: Others 
+            - list [ref=e692]:
+              - listitem [ref=e693]:
+                - link "Citizen's Charter" [ref=e694] [cursor=pointer]:
+                  - /url: /useful-links/citizens-charter
+              - listitem [ref=e695]:
+                - link "Wolfsberg AML Questionnaire" [ref=e696] [cursor=pointer]:
+                  - /url: /content/dam/hdfcbankpws/in/en/personal-banking/discover-products/other/wolfsberg-aml-questionnaire/wolfsberg-aml-questionnaire.pdf
+              - listitem [ref=e697]:
+                - link "Grievance Redressal Digital" [ref=e698] [cursor=pointer]:
+                  - /url: /need-help/grievance-redressal-digital
+              - listitem [ref=e699]:
+                - link "Grievance Redressal Officer" [ref=e700] [cursor=pointer]:
+                  - /url: /need-help/grievance-redressal-officer
+              - listitem [ref=e701]:
+                - link "Use Of Unparliamentary Language By Customers" [ref=e702] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/htdocs/common/Unparliamentary_Language/index.html
+              - listitem [ref=e703]:
+                - link "DNC Dedupe" [ref=e704] [cursor=pointer]:
+                  - /url: https://dncdedupe.hdfcbank.com/dnc/login
+              - listitem [ref=e705]:
+                - link "Digital Lending-Important Links" [ref=e706] [cursor=pointer]:
+                  - /url: /important-messages/product-features-and-policy
+        - generic [ref=e707]:
+          - generic [ref=e708]:
+            - paragraph [ref=e709]: Core Products
+            - list [ref=e710]:
+              - listitem [ref=e711]:
+                - link "Personal Loan" [ref=e712] [cursor=pointer]:
+                  - /url: /personal-loan
+              - listitem [ref=e713]:
+                - link "Car Loan" [ref=e714] [cursor=pointer]:
+                  - /url: /car-loan
+              - listitem [ref=e715]:
+                - link "Business Loan" [ref=e716] [cursor=pointer]:
+                  - /url: /business-loan
+              - listitem [ref=e717]:
+                - link "Two Wheeler Loan" [ref=e718] [cursor=pointer]:
+                  - /url: /two-wheeler-loan
+              - listitem [ref=e719]:
+                - link "Gold Loan" [ref=e720] [cursor=pointer]:
+                  - /url: /gold-loan
+              - listitem [ref=e721]:
+                - link "Home Loan" [ref=e722] [cursor=pointer]:
+                  - /url: /home-loan
+              - listitem [ref=e723]:
+                - link "Pre-verified Properties" [ref=e724] [cursor=pointer]:
+                  - /url: https://www.hdfc.com/project-search
+              - listitem [ref=e725]:
+                - link "Savings Account" [ref=e726] [cursor=pointer]:
+                  - /url: /savings-account
+              - listitem [ref=e727]:
+                - link "Salary Account" [ref=e728] [cursor=pointer]:
+                  - /url: /salary-account
+              - listitem [ref=e729]:
+                - link "Current Account" [ref=e730] [cursor=pointer]:
+                  - /url: /current-accounts
+              - listitem [ref=e731]:
+                - link "Demat Account" [ref=e732] [cursor=pointer]:
+                  - /url: /open-demat-account
+              - listitem [ref=e733]:
+                - link "Credit Card" [ref=e734] [cursor=pointer]:
+                  - /url: /credit-cards
+              - listitem [ref=e735]:
+                - link "Debit Card" [ref=e736] [cursor=pointer]:
+                  - /url: /debit-cards
+              - listitem [ref=e737]:
+                - link "Forex Card" [ref=e738] [cursor=pointer]:
+                  - /url: /forex-cards
+              - listitem [ref=e739]:
+                - link "PayZapp" [ref=e740] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/payzapp/index.html
+              - listitem [ref=e741]:
+                - link "FASTag" [ref=e742] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/htdocs/common/fastag/index.html
+              - listitem [ref=e743]:
+                - link "Fixed Deposit" [ref=e744] [cursor=pointer]:
+                  - /url: /fixed-deposit
+              - listitem [ref=e745]:
+                - link "MSME Loan" [ref=e746] [cursor=pointer]:
+                  - /url: /msme-banking/msme-loan
+          - generic [ref=e747]:
+            - paragraph [ref=e748]: Finance Calculators
+            - list [ref=e749]:
+              - listitem [ref=e750]:
+                - link "EMI Calculator" [ref=e751] [cursor=pointer]:
+                  - /url: /calculators
+              - listitem [ref=e752]:
+                - link "Personal Loan EMI Calculator" [ref=e753] [cursor=pointer]:
+                  - /url: /personal-loan/emi-calculator
+              - listitem [ref=e754]:
+                - link "Car Loan EMI Calculator" [ref=e755] [cursor=pointer]:
+                  - /url: /car-loan/emi-calculator
+              - listitem [ref=e756]:
+                - link "Two Wheeler EMI Calculator" [ref=e757] [cursor=pointer]:
+                  - /url: /two-wheeler-loan/emi-calculator
+              - listitem [ref=e758]:
+                - link "Business Loan Calculator" [ref=e759] [cursor=pointer]:
+                  - /url: /business-loan/emi-calculator
+              - listitem [ref=e760]:
+                - link "Gold Loan EMI Calculator" [ref=e761] [cursor=pointer]:
+                  - /url: /gold-loan/emi-calculator
+              - listitem [ref=e762]:
+                - link "Home Loan Calculator" [ref=e763] [cursor=pointer]:
+                  - /url: /home-loan/emi-calculator
+              - listitem [ref=e764]:
+                - link "Loan Against Property Calculator" [ref=e765] [cursor=pointer]:
+                  - /url: /loan-against-property/emi-calculator
+              - listitem [ref=e766]:
+                - link "AMB Calculator" [ref=e767] [cursor=pointer]:
+                  - /url: /savings-account/average-monthly-balance-calculator
+              - listitem [ref=e768]:
+                - link "Credit Card EMI Calculator" [ref=e769] [cursor=pointer]:
+                  - /url: /credit-cards/emi-calculator
+              - listitem [ref=e770]:
+                - link "SSY Calculator" [ref=e771] [cursor=pointer]:
+                  - /url: /sukanya-samriddhi-yojana-account/ssy-calculator
+              - listitem [ref=e772]:
+                - link "PPF Calculator" [ref=e773] [cursor=pointer]:
+                  - /url: /public-provident-fund/ppf-calculator
+              - listitem [ref=e774]:
+                - link "SIP Calculator" [ref=e775] [cursor=pointer]:
+                  - /url: /mutual-funds/sip-calculator
+              - listitem [ref=e776]:
+                - link "Fixed Deposit Calculator" [ref=e777] [cursor=pointer]:
+                  - /url: /fixed-deposit/fd-calculator
+              - listitem [ref=e778]:
+                - link "Recurring Deposit Calculator" [ref=e779] [cursor=pointer]:
+                  - /url: /recurring-deposit/rd-calculator
+          - button " View More" [ref=e781] [cursor=pointer]
+        - generic [ref=e783]:
+          - generic [ref=e784]:
+            - text: 
+            - combobox "select hdfc websites" [ref=e785] [cursor=pointer]:
+              - option "HDFC Group Websites" [selected]
+              - option "HDFC Securities"
+              - option "HDFC Mutual Fund"
+              - option "HDFC Life"
+              - option "HDFC ERGO"
+              - option "HDFC Pension"
+              - option "HDFC Financial Services"
+              - option "HDFC Sales"
+              - option "HDFC Capital"
+          - generic [ref=e786]:
+            - text: 
+            - combobox "select hdfc groups" [ref=e787] [cursor=pointer]:
+              - option "HDFC Bank Offshore Branches" [selected]
+              - option "HDFC Bank Bahrain Branches"
+              - option "HDFC Bank Gift City Branches"
+              - option "HDFC Bank DIFC Branches"
+              - option "HDFC Bank Hong Kong Branches"
+              - option "HDFC Bank Singapore Branches"
+              - option "HDFC Bank OFFSHORE Representative Office"
+      - generic [ref=e790]:
+        - generic [ref=e791]:
+          - link "HDFC Bank - Personal Banking & Netbanking Services" [ref=e793] [cursor=pointer]:
+            - /url: /
+            - img "HDFC Bank - Personal Banking & Netbanking Services" [ref=e794]
+          - generic [ref=e795]:
+            - generic [ref=e796]:
+              - generic [ref=e797]:
+                - img "QR Code" [ref=e798]
+                - img "DICGC Official Logo" [ref=e799]
+              - generic [ref=e800]:
+                - heading "HDFC Bank is registered with DICGC" [level=3] [ref=e801]
+                - link "https://www.dicgc.org.in" [ref=e802] [cursor=pointer]:
+                  - /url: https://www.dicgc.org.in
+            - img "Secure Banking" [ref=e804]
+        - generic [ref=e805]:
+          - list [ref=e806]:
+            - listitem [ref=e807]:
+              - paragraph [ref=e808]: © Copyright HDFC Bank Ltd. 2026
+            - listitem [ref=e809]:
+              - link "Cookie Policy" [ref=e810] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e811]:
+              - link "Terms & Conditions" [ref=e812] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - listitem [ref=e813]:
+              - link "Privacy" [ref=e814] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e815]:
+              - link "Consent Connect Portal" [ref=e816] [cursor=pointer]:
+                - /url: https://consentsettings.hdfc.bank.in/
+            - listitem [ref=e817]:
+              - link "Website Usage Terms" [ref=e818] [cursor=pointer]:
+                - /url: /useful-links/website-usage-terms
+            - listitem [ref=e819]:
+              - link "Glossary" [ref=e820] [cursor=pointer]:
+                - /url: /glossary
+          - generic [ref=e821]:
+            - link "Facebook" [ref=e822] [cursor=pointer]:
+              - /url: https://www.facebook.com/hdfcbank
+              - generic [ref=e823]: 
+            - link "Instagram" [ref=e824] [cursor=pointer]:
+              - /url: https://www.instagram.com/hdfcbank/
+              - generic [ref=e825]: 
+            - link "You Tube" [ref=e826] [cursor=pointer]:
+              - /url: https://youtube.com/@hdfcbank
+              - generic [ref=e827]: 
+            - link "Twitter" [ref=e828] [cursor=pointer]:
+              - /url: https://x.com/hdfc_bank
+              - generic [ref=e829]: 
+            - link "Pinterest" [ref=e830] [cursor=pointer]:
+              - /url: https://pinterest.com/hdfcbank
+              - generic [ref=e831]: 
+            - link "Linkdin" [ref=e832] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/164151/
+              - generic [ref=e833]: 
+  - text: 
+```

@@ -1,0 +1,18 @@
+{
+  "valid": {
+    "loanAmount": "1500000",
+    "tenure": "1",
+    "interestRate": "9.5",
+    "expected": {
+      "emi": "1,31,525",
+      "total": "15,78,303",
+      "fixedEmi": "78,303",
+      "principal": "15,00,000"
+    }
+  },
+  "invalid": {
+    "loanAmount": "0",
+    "tenure": "0",
+    "interestRate": "0"
+  }
+}

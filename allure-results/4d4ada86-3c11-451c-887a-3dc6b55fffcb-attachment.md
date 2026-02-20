@@ -1,0 +1,582 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button "Skip To Main Content" [ref=e2] [cursor=pointer]
+  - generic [ref=e5]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - banner:
+              - navigation:
+                - generic [ref=e8]:
+                  - link "HDFC Bank Logo" [ref=e10] [cursor=pointer]:
+                    - /url: https://www.hdfc.bank.in/
+                    - img "HDFC Bank - Personal Banking & Netbanking Services" [ref=e11]
+                  - generic [ref=e12]:
+                    - generic [ref=e13]:
+                      - button "You are in Personal Banking " [ref=e15] [cursor=pointer]:
+                        - generic [ref=e16]:
+                          - generic [ref=e17]: You are in Personal Banking
+                          - generic [ref=e18]: 
+                      - generic [ref=e20]:
+                        - generic:
+                          - list:
+                            - listitem [ref=e21]:
+                              - link "Discover Products " [ref=e22] [cursor=pointer]:
+                                - /url: javascript:void()
+                                - text: Discover Products
+                                - generic [ref=e23]: 
+                            - listitem [ref=e24]:
+                              - link "Need Help " [ref=e25] [cursor=pointer]:
+                                - /url: javascript:void()
+                                - text: Need Help
+                                - generic [ref=e26]: 
+                            - listitem [ref=e27]:
+                              - link "Better Money Choices®" [ref=e28] [cursor=pointer]:
+                                - /url: /blogs
+                            - listitem [ref=e29]:
+                              - link "Offers " [ref=e30] [cursor=pointer]:
+                                - /url: javascript:void()
+                                - text: Offers
+                                - generic [ref=e31]: 
+                            - listitem
+                        - button "Open Search" [ref=e35]:
+                          - generic [ref=e36]:
+                            - img "eva" [ref=e37]
+                            - generic [ref=e38]:
+                              - generic [ref=e39]: ASK
+                              - generic [ref=e40]: EVA
+                          - generic [ref=e41]: Search...
+                        - button "Login" [ref=e43] [cursor=pointer]:
+                          - text: Login
+                          - generic [ref=e44]: 
+                    - generic [ref=e45]:
+                      - button "About Us" [ref=e47] [cursor=pointer]:
+                        - text: About Us
+                        - generic [ref=e48]: 
+                      - button "English " [ref=e50] [cursor=pointer]:
+                        - generic [ref=e51]: English
+                        - generic [ref=e52]: 
+                      - button "Toggle Accessiblity" [ref=e54] [cursor=pointer]:
+                        - img [ref=e56]
+                      - button "notification" [ref=e60] [cursor=pointer]:
+                        - generic [ref=e61]: 
+                - text:                                                                                                 
+    - generic [ref=e64]:
+      - text:  
+      - generic [ref=e66]:
+        - generic [ref=e68]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - heading "Are you financially aligned with your partner?" [level=1] [ref=e73]:
+                - generic [ref=e74]: Are you financially aligned with your partner?
+              - paragraph [ref=e75]:
+                - generic [ref=e76]:
+                  - text: To find out, take the
+                  - text: Financially Ever After Quiz
+            - link "Start Quiz Are you financially aligned with your partner?" [ref=e78] [cursor=pointer]:
+              - /url: https://financiallyeverafter.in/
+              - text: Start Quiz
+              - generic [ref=e79]: 
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - group [ref=e85]:
+                - radio "Products" [checked]
+                - generic "Products" [ref=e86] [cursor=pointer]
+                - radio "Services"
+                - generic [ref=e87] [cursor=pointer]: Services
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - button " Select Product Type" [ref=e92] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e93]: Select Product Type
+                  - button " Select Product" [ref=e95] [cursor=pointer]:
+                    - text: 
+                    - generic [ref=e96]: Select Product
+                - generic [ref=e100]:
+                  - generic "Apply Now Are you financially aligned with your partner?": Apply Now
+                  - generic "Know More Are you financially aligned with your partner?": Know More
+            - text: 
+        - img "HDFC Bank Netbanking - Simplified Online Banking for Personal Accounts" [ref=e104]
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - img "eva" [ref=e110]
+          - generic [ref=e111]:
+            - generic [ref=e112]: ASK
+            - generic [ref=e113]: EVA
+        - textbox "What are you looking for today?..." [ref=e114]
+        - img "send" [ref=e116]
+      - group [ref=e122]:
+        - generic [ref=e123]:
+          - group "Experience new-age banking, specific to your needs" [ref=e124]:
+            - generic [ref=e126]:
+              - img "HDFC Digital Banking App" [ref=e130]
+              - generic [ref=e132]:
+                - paragraph [ref=e135]: What's New
+                - heading "Experience new-age banking, specific to your needs" [level=2] [ref=e138]:
+                  - generic [ref=e139]: Experience new-age banking, specific to your needs
+                - generic [ref=e142]:
+                  - link "PayZapp - Online Payment App in India One app for all your payment needs" [ref=e143] [cursor=pointer]:
+                    - /url: https://v.hdfcbank.com/payzapp/index.html
+                    - img "PayZapp - Online Payment App in India" [ref=e145]
+                    - heading "One app for all your payment needs" [level=3] [ref=e146]
+                  - link "Easy Emi Online Shopping All your investments in one place" [ref=e147] [cursor=pointer]:
+                    - /url: /smartwealth
+                    - img "Easy Emi Online Shopping" [ref=e149]
+                    - heading "All your investments in one place" [level=3] [ref=e150]
+                  - link "Chatbanking on Whatsapp Fully customisable Digital Credit Cards" [ref=e151] [cursor=pointer]:
+                    - /url: /credit-cards/pixel-play-credit-card
+                    - img "Chatbanking on Whatsapp" [ref=e153]
+                    - heading "Fully customisable Digital Credit Cards" [level=3] [ref=e154]
+                  - link "HDFC SKY - make money matter Explore stocks, ETFs, F&O and more" [ref=e155] [cursor=pointer]:
+                    - /url: https://hdfcsky.com/hdfcbank?utm_Source=HDFCBank_SKY&utm_Medium=Website_Home_Page_Whats_New&utm_Campaign=Website_Home_Page&utm_Term=Website
+                    - img "HDFC SKY - make money matter" [ref=e157]
+                    - heading "Explore stocks, ETFs, F&O and more" [level=3] [ref=e158]
+                - generic: 
+          - group "Take charge of critical Banking functions on-the-go" [ref=e159]:
+            - generic [ref=e161]:
+              - img "Achieve Your Dream Home with HDFC Loans" [ref=e165]
+              - generic [ref=e167]:
+                - paragraph [ref=e170]: What's New
+                - heading "Take charge of critical Banking functions on-the-go" [level=2] [ref=e173]:
+                  - generic [ref=e174]: Take charge of critical Banking functions on-the-go
+                - paragraph [ref=e177]: Stay in control always
+                - generic [ref=e180]:
+                  - link "Complete KYC" [ref=e181] [cursor=pointer]:
+                    - /url: https://instaservices.hdfcbank.com/?journey=116&source_type=124
+                    - heading "Complete KYC" [level=3] [ref=e182]:
+                      - generic [ref=e184]: 
+                      - paragraph [ref=e185]: Complete KYC
+                  - link "Update Mobile Number" [ref=e186] [cursor=pointer]:
+                    - /url: https://instaservices.hdfcbank.com/?journey=106&source_type=103
+                    - heading "Update Mobile Number" [level=3] [ref=e187]:
+                      - generic [ref=e189]: 
+                      - paragraph [ref=e190]: Update Mobile Number
+                  - link "Set PIN" [ref=e191] [cursor=pointer]:
+                    - /url: /important-messages/debit-card-instant-pin-re-generation
+                    - heading "Set PIN" [level=3] [ref=e192]:
+                      - generic [ref=e194]: 
+                      - paragraph [ref=e195]: Set PIN
+                  - link "Block Card" [ref=e196] [cursor=pointer]:
+                    - /url: /need-help/report-unauthorized-transactions
+                    - heading "Block Card" [level=3] [ref=e197]:
+                      - generic [ref=e199]: 
+                      - paragraph [ref=e200]: Block Card
+                - link "Explore Take charge of critical Banking functions on-the-go" [ref=e202] [cursor=pointer]:
+                  - /url: /xpressway/insta-services
+                  - generic "Explore Take charge of critical Banking functions on-the-go" [ref=e203]: Explore
+                  - generic [ref=e204]: 
+      - generic [ref=e206]:
+        - paragraph [ref=e211]:
+          - generic [ref=e212]: Banking Solutions tailor-made for you
+        - paragraph [ref=e217]: Banking Solutions tailor-made for you
+      - paragraph [ref=e224]: How can we help you?
+      - paragraph [ref=e231]: Let’s Make India fraud free
+      - generic [ref=e237]:
+        - heading "Calculators" [level=4] [ref=e238]
+        - list
+      - paragraph [ref=e245]: Building a better India – one step at a time.
+      - paragraph [ref=e252]: Vigil Aunty fraud awareness
+      - paragraph [ref=e259]: Banking Beyond Numbers
+      - generic [ref=e265]:
+        - heading "Secure and hassle-freebanking on-the-go." [level=2] [ref=e266]
+        - paragraph [ref=e267]: Experience industry-leading Digital Banking Solutions.
+        - paragraph [ref=e268]:
+          - text: Mobile BankingNet BankingWhatsapp Banking
+          - link "View More" [ref=e269] [cursor=pointer]:
+            - /url: https://pws-hdfcsites-qa.adobecqms.net/ways-to-bank/mobilebanking/hdfc-bank-mobilebanking-app
+        - paragraph [ref=e270]: Introducing our new Mobile Banking App crafted with you in mind forseamless and easy banking on the go!
+      - generic:   
+      - generic [ref=e272]:
+        - heading "Official Government Announcements" [level=2] [ref=e275]
+        - group [ref=e279]:
+          - generic [ref=e280]:
+            - group "1 / 4" [ref=e281]:
+              - generic [ref=e285]:
+                - link:
+                  - /url: https://www.hdfc.bank.in/security?mc_id=website_organic_RBIbanner&icid=website_organic_RBIbanner
+            - group "2 / 4" [ref=e286]:
+              - generic [ref=e290]:
+                - link:
+                  - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12671&Mode=0
+            - group "3 / 4" [ref=e291]:
+              - generic [ref=e295]:
+                - link:
+                  - /url: https://www.ckycindia.in/ckyc/index.php
+            - group "4 / 4" [ref=e296]:
+              - generic [ref=e300]:
+                - link:
+                  - /url: https://investor.sebi.gov.in/
+          - generic [ref=e301]:
+            - button "Previous slide" [disabled]: 
+            - button "Next slide" [ref=e302] [cursor=pointer]: 
+    - contentinfo [ref=e308]:
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - heading "Here’s how to reach us" [level=2] [ref=e312]
+          - list [ref=e313]:
+            - listitem [ref=e314]:
+              - link "Call" [ref=e315] [cursor=pointer]:
+                - /url: tel:18001600
+                - generic [ref=e316]: 
+                - text: Call
+            - listitem [ref=e317]:
+              - link "Chat" [ref=e318] [cursor=pointer]:
+                - /url: https://wa.me/+917070022222?text=Hey
+                - generic [ref=e319]: 
+                - text: Chat
+            - listitem [ref=e320]:
+              - link "Locate" [ref=e321] [cursor=pointer]:
+                - /url: /branch-locator
+                - generic [ref=e322]: 
+                - text: Locate
+        - generic [ref=e323]:
+          - generic [ref=e324]:
+            - paragraph [ref=e325]: About Us 
+            - list [ref=e326]:
+              - listitem [ref=e327]:
+                - link "Overview" [ref=e328] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e329]:
+                - link "Investor Relations" [ref=e330] [cursor=pointer]:
+                  - /url: /about-us/investor-relations
+              - listitem [ref=e331]:
+                - link "Careers" [ref=e332] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e333]:
+                - link "Other Stakeholders' Information" [ref=e334] [cursor=pointer]:
+                  - /url: /about-us/stakeholders-information
+              - listitem [ref=e335]:
+                - link "News Room" [ref=e336] [cursor=pointer]:
+                  - /url: /news-room
+              - listitem [ref=e337]:
+                - link "Corporate Governance" [ref=e338] [cursor=pointer]:
+                  - /url: /about-us/corporate-governance
+              - listitem [ref=e339]:
+                - link "CSR" [ref=e340] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/csr/index.html
+              - listitem [ref=e341]:
+                - link "Online Dispute Resolution Portal" [ref=e342] [cursor=pointer]:
+                  - /url: https://smartodr.in/login
+              - listitem [ref=e343]:
+                - link "Regulatory Disclosures" [ref=e344] [cursor=pointer]:
+                  - /url: /about-us/regulatory-disclosures
+              - listitem [ref=e345]:
+                - link "Our Corporate commitment" [ref=e346] [cursor=pointer]:
+                  - /url: /our-corporate-commit
+              - listitem [ref=e347]:
+                - link "Erstwhile HDFC Limited T&C" [ref=e348] [cursor=pointer]:
+                  - /url: https://www.hdfc.com/tnc-ltd
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Useful Links 
+            - list [ref=e351]:
+              - listitem [ref=e352]:
+                - link "Quick Links" [ref=e353] [cursor=pointer]:
+                  - /url: /useful-links/quick-links
+              - listitem [ref=e354]:
+                - link "New Issuance" [ref=e355] [cursor=pointer]:
+                  - /url: /useful-links/new-issuance
+              - listitem [ref=e356]:
+                - link "List of third parties engaged by Bank" [ref=e357] [cursor=pointer]:
+                  - /url: /useful-links/list-of-third-parties-engaged-by-bank
+              - listitem [ref=e358]:
+                - link "Security" [ref=e359] [cursor=pointer]:
+                  - /url: /security
+              - listitem [ref=e360]:
+                - link "US Patriot Act Certificate" [ref=e361] [cursor=pointer]:
+                  - /url: /useful-links/us-patriot-act-certificate
+              - listitem [ref=e362]:
+                - link "Important Messages" [ref=e363] [cursor=pointer]:
+                  - /url: /important-messages
+              - listitem [ref=e364]:
+                - link "RBI Kehta Hai" [ref=e365] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=e366]:
+                - link "RBI UDGAM-Unclaimed Deposit" [ref=e367] [cursor=pointer]:
+                  - /url: https://udgam.rbi.org.in/unclaimed-deposits/#/login
+              - listitem [ref=e368]:
+                - link "RBI Complaint Management System" [ref=e369] [cursor=pointer]:
+                  - /url: https://cms.rbi.org.in/cms/indexpage.html#eng
+              - listitem [ref=e370]:
+                - link "RBI Sachet Portal" [ref=e371] [cursor=pointer]:
+                  - /url: https://sachet.rbi.org.in
+              - listitem [ref=e372]:
+                - link "1+1 Credit Card Application" [ref=e373] [cursor=pointer]:
+                  - /url: https://applyonline.hdfcbank.com/cards/credit-cards.html?FUNC=FLOAT
+          - generic [ref=e374]:
+            - paragraph [ref=e375]: Resources 
+            - list [ref=e376]:
+              - listitem [ref=e377]:
+                - link "Fees & Charges" [ref=e378] [cursor=pointer]:
+                  - /url: /fees-and-charges
+              - listitem [ref=e379]:
+                - link "Customer Services" [ref=e380] [cursor=pointer]:
+                  - /url: /xpressway/insta-services
+              - listitem [ref=e381]:
+                - link "Bank Holiday List" [ref=e382] [cursor=pointer]:
+                  - /url: /bank-holiday-list
+              - listitem [ref=e383]:
+                - link "Online Services" [ref=e384] [cursor=pointer]:
+                  - /url: /online-services
+              - listitem [ref=e385]:
+                - link "Notice Board" [ref=e386] [cursor=pointer]:
+                  - /url: /notice-board
+              - listitem [ref=e387]:
+                - link "Interest Rates" [ref=e388] [cursor=pointer]:
+                  - /url: /interest-rates
+              - listitem [ref=e389]:
+                - link "Forex Rates" [ref=e390] [cursor=pointer]:
+                  - /url: /interest-rates#forexRates
+              - listitem [ref=e391]:
+                - link "Ways To Bank" [ref=e392] [cursor=pointer]:
+                  - /url: /ways-to-bank
+              - listitem [ref=e393]:
+                - link "Better Money Choices" [ref=e394] [cursor=pointer]:
+                  - /url: /blogs
+              - listitem [ref=e395]:
+                - link "Auction Notices" [ref=e396] [cursor=pointer]:
+                  - /url: /auction-notices
+              - listitem [ref=e397]:
+                - link "Forms Centre" [ref=e398] [cursor=pointer]:
+                  - /url: /resources/forms-centre
+          - generic [ref=e399]:
+            - paragraph [ref=e400]: Contact Us & Need Help 
+            - list [ref=e401]:
+              - listitem [ref=e402]:
+                - link "Lodge a Complaint/Query/Request" [ref=e403] [cursor=pointer]:
+                  - /url: /need-help/grievance-redressal
+              - listitem [ref=e404]:
+                - link "FAQs" [ref=e405] [cursor=pointer]:
+                  - /url: /faqs
+              - listitem [ref=e406]:
+                - link "Customer Care" [ref=e407] [cursor=pointer]:
+                  - /url: /contact-us/customer-care
+              - listitem [ref=e408]:
+                - link "Active Channel Partners" [ref=e409] [cursor=pointer]:
+                  - /url: https://leads.hdfcbank.com/applications/webforms/apply/Unsecured-Loans-Channel-Partner/index.aspx
+              - listitem [ref=e410]:
+                - link "Consent to Call Registration" [ref=e411] [cursor=pointer]:
+                  - /url: https://leads.hdfcbank.com/applications/misc/dnc/dnc.aspx?calltype=ctc
+              - listitem [ref=e412]:
+                - link "Do-Not-Call-Registration" [ref=e413] [cursor=pointer]:
+                  - /url: https://leads.hdfcbank.com/applications/misc/dnc/dnc.aspx?calltype=dnc
+              - listitem [ref=e414]:
+                - link "Locate Us" [ref=e415] [cursor=pointer]:
+                  - /url: /branch-locator
+              - listitem [ref=e416]:
+                - link "WhatsApp Banking" [ref=e417] [cursor=pointer]:
+                  - /url: https://www.hdfc.bank.in/ways-to-bank/chat-banking
+          - generic [ref=e418]:
+            - paragraph [ref=e419]: Others 
+            - list [ref=e420]:
+              - listitem [ref=e421]:
+                - link "Citizen's Charter" [ref=e422] [cursor=pointer]:
+                  - /url: /useful-links/citizens-charter
+              - listitem [ref=e423]:
+                - link "Wolfsberg AML Questionnaire" [ref=e424] [cursor=pointer]:
+                  - /url: /content/dam/hdfcbankpws/in/en/personal-banking/discover-products/other/wolfsberg-aml-questionnaire/wolfsberg-aml-questionnaire.pdf
+              - listitem [ref=e425]:
+                - link "Grievance Redressal Digital" [ref=e426] [cursor=pointer]:
+                  - /url: /need-help/grievance-redressal-digital
+              - listitem [ref=e427]:
+                - link "Grievance Redressal Officer" [ref=e428] [cursor=pointer]:
+                  - /url: /need-help/grievance-redressal-officer
+              - listitem [ref=e429]:
+                - link "Use Of Unparliamentary Language By Customers" [ref=e430] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/htdocs/common/Unparliamentary_Language/index.html
+              - listitem [ref=e431]:
+                - link "DNC Dedupe" [ref=e432] [cursor=pointer]:
+                  - /url: https://dncdedupe.hdfcbank.com/dnc/login
+              - listitem [ref=e433]:
+                - link "Digital Lending-Important Links" [ref=e434] [cursor=pointer]:
+                  - /url: /important-messages/product-features-and-policy
+        - generic [ref=e435]:
+          - generic [ref=e436]:
+            - paragraph [ref=e437]: Core Products
+            - list [ref=e438]:
+              - listitem [ref=e439]:
+                - link "Personal Loan" [ref=e440] [cursor=pointer]:
+                  - /url: /personal-loan
+              - listitem [ref=e441]:
+                - link "Car Loan" [ref=e442] [cursor=pointer]:
+                  - /url: /car-loan
+              - listitem [ref=e443]:
+                - link "Business Loan" [ref=e444] [cursor=pointer]:
+                  - /url: /business-loan
+              - listitem [ref=e445]:
+                - link "Two Wheeler Loan" [ref=e446] [cursor=pointer]:
+                  - /url: /two-wheeler-loan
+              - listitem [ref=e447]:
+                - link "Gold Loan" [ref=e448] [cursor=pointer]:
+                  - /url: /gold-loan
+              - listitem [ref=e449]:
+                - link "Home Loan" [ref=e450] [cursor=pointer]:
+                  - /url: /home-loan
+              - listitem [ref=e451]:
+                - link "Pre-verified Properties" [ref=e452] [cursor=pointer]:
+                  - /url: https://www.hdfc.com/project-search
+              - listitem [ref=e453]:
+                - link "Savings Account" [ref=e454] [cursor=pointer]:
+                  - /url: /savings-account
+              - listitem [ref=e455]:
+                - link "Salary Account" [ref=e456] [cursor=pointer]:
+                  - /url: /salary-account
+              - listitem [ref=e457]:
+                - link "Current Account" [ref=e458] [cursor=pointer]:
+                  - /url: /current-accounts
+              - listitem [ref=e459]:
+                - link "Demat Account" [ref=e460] [cursor=pointer]:
+                  - /url: /open-demat-account
+              - listitem [ref=e461]:
+                - link "Credit Card" [ref=e462] [cursor=pointer]:
+                  - /url: /credit-cards
+              - listitem [ref=e463]:
+                - link "Debit Card" [ref=e464] [cursor=pointer]:
+                  - /url: /debit-cards
+              - listitem [ref=e465]:
+                - link "Forex Card" [ref=e466] [cursor=pointer]:
+                  - /url: /forex-cards
+              - listitem [ref=e467]:
+                - link "PayZapp" [ref=e468] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/payzapp/index.html
+              - listitem [ref=e469]:
+                - link "FASTag" [ref=e470] [cursor=pointer]:
+                  - /url: https://v.hdfcbank.com/htdocs/common/fastag/index.html
+              - listitem [ref=e471]:
+                - link "Fixed Deposit" [ref=e472] [cursor=pointer]:
+                  - /url: /fixed-deposit
+              - listitem [ref=e473]:
+                - link "MSME Loan" [ref=e474] [cursor=pointer]:
+                  - /url: /msme-banking/msme-loan
+          - generic [ref=e475]:
+            - paragraph [ref=e476]: Finance Calculators
+            - list [ref=e477]:
+              - listitem [ref=e478]:
+                - link "EMI Calculator" [ref=e479] [cursor=pointer]:
+                  - /url: /calculators
+              - listitem [ref=e480]:
+                - link "Personal Loan EMI Calculator" [ref=e481] [cursor=pointer]:
+                  - /url: /personal-loan/emi-calculator
+              - listitem [ref=e482]:
+                - link "Car Loan EMI Calculator" [ref=e483] [cursor=pointer]:
+                  - /url: /car-loan/emi-calculator
+              - listitem [ref=e484]:
+                - link "Two Wheeler EMI Calculator" [ref=e485] [cursor=pointer]:
+                  - /url: /two-wheeler-loan/emi-calculator
+              - listitem [ref=e486]:
+                - link "Business Loan Calculator" [ref=e487] [cursor=pointer]:
+                  - /url: /business-loan/emi-calculator
+              - listitem [ref=e488]:
+                - link "Gold Loan EMI Calculator" [ref=e489] [cursor=pointer]:
+                  - /url: /gold-loan/emi-calculator
+              - listitem [ref=e490]:
+                - link "Home Loan Calculator" [ref=e491] [cursor=pointer]:
+                  - /url: /home-loan/emi-calculator
+              - listitem [ref=e492]:
+                - link "Loan Against Property Calculator" [ref=e493] [cursor=pointer]:
+                  - /url: /loan-against-property/emi-calculator
+              - listitem [ref=e494]:
+                - link "AMB Calculator" [ref=e495] [cursor=pointer]:
+                  - /url: /savings-account/average-monthly-balance-calculator
+              - listitem [ref=e496]:
+                - link "Credit Card EMI Calculator" [ref=e497] [cursor=pointer]:
+                  - /url: /credit-cards/emi-calculator
+              - listitem [ref=e498]:
+                - link "SSY Calculator" [ref=e499] [cursor=pointer]:
+                  - /url: /sukanya-samriddhi-yojana-account/ssy-calculator
+              - listitem [ref=e500]:
+                - link "PPF Calculator" [ref=e501] [cursor=pointer]:
+                  - /url: /public-provident-fund/ppf-calculator
+              - listitem [ref=e502]:
+                - link "SIP Calculator" [ref=e503] [cursor=pointer]:
+                  - /url: /mutual-funds/sip-calculator
+              - listitem [ref=e504]:
+                - link "Fixed Deposit Calculator" [ref=e505] [cursor=pointer]:
+                  - /url: /fixed-deposit/fd-calculator
+              - listitem [ref=e506]:
+                - link "Recurring Deposit Calculator" [ref=e507] [cursor=pointer]:
+                  - /url: /recurring-deposit/rd-calculator
+          - button " View More" [ref=e509] [cursor=pointer]
+        - generic [ref=e511]:
+          - generic [ref=e512]:
+            - text: 
+            - combobox "select hdfc websites" [ref=e513] [cursor=pointer]:
+              - option "HDFC Group Websites" [selected]
+              - option "HDFC Securities"
+              - option "HDFC Mutual Fund"
+              - option "HDFC Life"
+              - option "HDFC ERGO"
+              - option "HDFC Pension"
+              - option "HDFC Financial Services"
+              - option "HDFC Sales"
+              - option "HDFC Capital"
+          - generic [ref=e514]:
+            - text: 
+            - combobox "select hdfc groups" [ref=e515] [cursor=pointer]:
+              - option "HDFC Bank Offshore Branches" [selected]
+              - option "HDFC Bank Bahrain Branches"
+              - option "HDFC Bank Gift City Branches"
+              - option "HDFC Bank DIFC Branches"
+              - option "HDFC Bank Hong Kong Branches"
+              - option "HDFC Bank Singapore Branches"
+              - option "HDFC Bank OFFSHORE Representative Office"
+      - generic [ref=e518]:
+        - generic [ref=e519]:
+          - link "HDFC Bank - Personal Banking & Netbanking Services" [ref=e521] [cursor=pointer]:
+            - /url: /
+            - img "HDFC Bank - Personal Banking & Netbanking Services" [ref=e522]
+          - generic [ref=e523]:
+            - generic [ref=e524]:
+              - generic [ref=e525]:
+                - img "QR Code" [ref=e526]
+                - img "DICGC Official Logo" [ref=e527]
+              - generic [ref=e528]:
+                - heading "HDFC Bank is registered with DICGC" [level=3] [ref=e529]
+                - link "https://www.dicgc.org.in" [ref=e530] [cursor=pointer]:
+                  - /url: https://www.dicgc.org.in
+            - img "Secure Banking" [ref=e532]
+        - generic [ref=e533]:
+          - list [ref=e534]:
+            - listitem [ref=e535]:
+              - paragraph [ref=e536]: © Copyright HDFC Bank Ltd. 2026
+            - listitem [ref=e537]:
+              - link "Cookie Policy" [ref=e538] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e539]:
+              - link "Terms & Conditions" [ref=e540] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - listitem [ref=e541]:
+              - link "Privacy" [ref=e542] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e543]:
+              - link "Consent Connect Portal" [ref=e544] [cursor=pointer]:
+                - /url: https://consentsettings.hdfc.bank.in/
+            - listitem [ref=e545]:
+              - link "Website Usage Terms" [ref=e546] [cursor=pointer]:
+                - /url: /useful-links/website-usage-terms
+            - listitem [ref=e547]:
+              - link "Glossary" [ref=e548] [cursor=pointer]:
+                - /url: /glossary
+          - generic [ref=e549]:
+            - link "Facebook" [ref=e550] [cursor=pointer]:
+              - /url: https://www.facebook.com/hdfcbank
+              - generic [ref=e551]: 
+            - link "Instagram" [ref=e552] [cursor=pointer]:
+              - /url: https://www.instagram.com/hdfcbank/
+              - generic [ref=e553]: 
+            - link "You Tube" [ref=e554] [cursor=pointer]:
+              - /url: https://youtube.com/@hdfcbank
+              - generic [ref=e555]: 
+            - link "Twitter" [ref=e556] [cursor=pointer]:
+              - /url: https://x.com/hdfc_bank
+              - generic [ref=e557]: 
+            - link "Pinterest" [ref=e558] [cursor=pointer]:
+              - /url: https://pinterest.com/hdfcbank
+              - generic [ref=e559]: 
+            - link "Linkdin" [ref=e560] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/164151/
+              - generic [ref=e561]: 
+  - text: 
+```
