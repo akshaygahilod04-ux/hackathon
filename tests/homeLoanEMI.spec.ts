@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import { HomeLoanPage } from '../pages/HomeLoanPage';
 import { navigateToCalculator } from '../utils/navigationUtils';
 import homeLoanData from '../data/homeLoanData.json';
-import { exportToExcel } from '../utils/excelUtils';
+
 
 test.describe('Home Loan EMI Validations', () => {
 
@@ -14,9 +14,7 @@ test.describe('Home Loan EMI Validations', () => {
   
   });
 
-  // =========================
   // Functional Tests
-  // =========================
 
   test('@Smoke Validate EMI', async () => {
     await homeLoanPage.enterLoanDetails(
@@ -25,7 +23,6 @@ test.describe('Home Loan EMI Validations', () => {
       homeLoanData.valid.interestRate
     );
     await homeLoanPage.validateEMI(homeLoanData.valid.expected.emi);
-
 
   });
 
@@ -56,9 +53,7 @@ test.describe('Home Loan EMI Validations', () => {
     await homeLoanPage.validatePrincipal(homeLoanData.valid.expected.principal);
   });
 
-  // =========================
   // Negative Tests
-  // =========================
 
   test('@Sanity Invalid Loan Amount Tooltip', async () => {
     await homeLoanPage.loanAmountTextbox.fill(homeLoanData.invalid.loanAmount);
@@ -80,46 +75,10 @@ test.describe('Home Loan EMI Validations', () => {
       'Please enter a value between 0.5 and 15.'
     );
   });
-
-  // =========================
+ 
   // UI Tests
-  // =========================
-
   test('@Smoke Validate Page Title', async () => {
     await homeLoanPage.validateTitle();
   });
 
-  // test('@Smoke Extract table', async () => {
-  //   const tableData = await homeLoanPage.extractTable();
-  //   console.log('Extracted data: ', tableData)
-
-  // });
-
-  test('@Smoke Extract Excel', async () => {
-    
-    const tableData = await homeLoanPage.extractTable();
-    
-    exportToExcel(tableData, `./test-data/LoanData_${Date.now()}.xlsx`)
-    
-  });
-
-  test('@Smoke Verify Monthly EMI Calculation', async () => {
-    const result = await homeLoanPage.verifyMonthlyEMI();
-    
-    console.log('EMI Verification Results:');
-    console.log(`- Manually Calculated EMI: ₹${result.calculatedEMI}`);
-    console.log(`- Website EMI: ₹${result.websiteEMI}`);
-    console.log(`- Verification Status: ${result.isMatching ? 'PASSED ✓' : 'FAILED ✗'}`);
-  });
-
-  
-
-  // test('@Smoke Validate Loan Tenure Editable', async () => {
-  //   await homeLoanPage.validateLoanTenureEditable();
-  // });
-
-  // test('@Smoke Validate Interest Rate Editable', async () => {
-  //   await homeLoanPage.validateInterestRateEditable();
-  // });
-
-});
+})

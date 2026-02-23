@@ -9,7 +9,7 @@ export default defineConfig({
   fullyParallel: true
   ,
   retries: 2,
-  workers: 4,
+  workers: 2,
   reporter: [['list'], ['html', { outputFolder: 'playwright-report' }], ['allure-playwright']],
   use: {
     baseURL: 'https://www.hdfc.bank.in/',

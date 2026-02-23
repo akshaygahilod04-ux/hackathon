@@ -13,9 +13,8 @@ test.describe('Car Loan EMI Validations', () => {
     
   });
 
-  // =========================
   // Functional Tests
-  // =========================
+ 
 
   test('@Smoke Validate EMI', async () => {
     await carLoanPage.enterLoanDetails(
@@ -53,9 +52,9 @@ test.describe('Car Loan EMI Validations', () => {
     await carLoanPage.validatePrincipal(carLoanData.valid.expected.principal);
   });
 
-  // =========================
+ 
   // Negative Test
-  // =========================
+
 
   test('@Sanity Invalid Loan Amount Tooltip', async () => {
     await carLoanPage.loanAmountTextbox.fill(carLoanData.invalid.loanAmount);
@@ -64,9 +63,9 @@ test.describe('Car Loan EMI Validations', () => {
     );
   });
 
-  // =========================
+
   // UI Tests
-  // =========================
+ 
 
   test('@Smoke Validate Page Title', async () => {
     await carLoanPage.validateTitle();
